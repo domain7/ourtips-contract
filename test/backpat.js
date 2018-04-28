@@ -6,6 +6,7 @@ contract('Backpat', function(accounts) {
   const creator = accounts[0];
   const user1 = accounts[1];
   const user2 = accounts[2];
+  const user3 = accounts[3];
   const user1Shares = 1;
   const user2Shares = 3;
   const users = [user1, user2];
@@ -39,8 +40,21 @@ contract('Backpat', function(accounts) {
   it('user should see how much ether they can claim', async () => {
     await backpat.send(ether(1));
     const amount = await backpat.checkAmount(user1);
-    console.log(amount);
     assert.equal(amount, ether(0.25));
+  })
+
+  it('user should see that they cannot claim after they claimed', async () => {
+    await backpat.send(ether(1));
+    await backpat.claim({ from: user1 });
+    const amount = await backpat.checkAmount(user1);
+    assert.equal(amount, ether(0));
+  })
+
+  it('should confirm if address is a payee', async () => {
+    const isPayee = await backpat.isPayee(user1);
+    const isNotPayee = await backpat.isPayee(user3);
+    assert.equal(isPayee, true);
+    assert.equal(isNotPayee, false);
   })
 
 });

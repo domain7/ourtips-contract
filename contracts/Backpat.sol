@@ -17,4 +17,8 @@ contract Backpat is SplitPayment {
         uint256 payeeAmount = totalReceived.mul(shares[_payee]).div(totalShares).sub(released[_payee]);
         return payeeAmount;
     }
+
+    function isPayee(address _address) public view returns (bool) {
+        return shares[_address] > 0;
+    }
 }

@@ -11,11 +11,12 @@ contract('Backpat', function(accounts) {
   const user2Shares = 3;
   const users = [user1, user2];
   const shares = [user1Shares, user2Shares];
+  const name = 'Test name';
 
   let backpat;
 
   beforeEach(async () => {
-    backpat = await Backpat.new(users, shares, { from: creator });
+    backpat = await Backpat.new(users, shares, name, { from: creator });
   })
 
 
@@ -23,6 +24,11 @@ contract('Backpat', function(accounts) {
     const balance = web3.eth.getBalance(backpat.address);
     assert.equal(balance, ether(0));
   });
+
+  it('should have a name', async () => {
+    const deployedContractName = await backpat.name();
+    assert.equal(deployedContractName, name);
+  })
 
   it('should have 1 balance after sending 1 ether', async () => {
     await backpat.send(ether(1));
@@ -57,7 +63,7 @@ contract('Backpat', function(accounts) {
     assert.equal(isNotPayee, false);
   })
 
-  it.only('should send out shares to all payees', async () => {
+  it('should send out shares to all payees', async () => {
     const initialUser1Balance = web3.eth.getBalance(user1);
     const initialUser2Balance = web3.eth.getBalance(user2);
     await backpat.send(ether(1));

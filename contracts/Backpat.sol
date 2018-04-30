@@ -5,12 +5,16 @@ import "zeppelin-solidity/contracts/math/SafeMath.sol";
 
 
 contract Backpat is SplitPayment {
-    function Backpat(address[] _payees, uint256[] _shares)
+    string public name;
+
+    function Backpat(address[] _payees, uint256[] _shares, string _name)
         public
         SplitPayment(_payees, _shares)
-        {}
+    {
+        name = _name;
+    }
 
-    function () payable {}
+    function () public payable {}
 
     function checkAmount(address _payee) public view returns (uint256) {
         uint256 totalReceived = address(this).balance.add(totalReleased);

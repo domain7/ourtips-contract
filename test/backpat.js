@@ -57,4 +57,18 @@ contract('Backpat', function(accounts) {
     assert.equal(isNotPayee, false);
   })
 
+  it.only('should send out shares to all payees', async () => {
+    const initialUser1Balance = web3.eth.getBalance(user1);
+    const initialUser2Balance = web3.eth.getBalance(user2);
+    await backpat.send(ether(1));
+    const amountForUser1 = await backpat.checkAmount(user1);
+    const amountForUser2 = await backpat.checkAmount(user2);
+
+    await backpat.sendOut({ from: creator });
+
+    assert.equal(web3.eth.getBalance(user1).toString(), initialUser1Balance.plus(amountForUser1) );
+    assert.equal(web3.eth.getBalance(user2).toString(), initialUser2Balance.plus(amountForUser2) );
+
+  })
+
 });

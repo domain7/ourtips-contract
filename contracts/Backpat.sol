@@ -28,7 +28,9 @@ contract Backpat is SplitPayment {
 
     function sendOut() public returns (bool) {
         for (uint i = 0; i < payees.length; i++) {
-            transfer(payees[i]);
+            if (checkAmount(payees[i]) > 0) {
+                transfer(payees[i]);
+            }
         }
     }
 

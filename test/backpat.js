@@ -77,4 +77,15 @@ contract('Backpat', function(accounts) {
 
   })
 
+  it('should not break if someone has nothing to send', async () => {
+    await backpat.send(ether(1));
+    await backpat.claim({ from: user1 });
+
+    // This function should not throw an exception
+    await backpat.sendOut({ from: creator });
+
+    const balance = web3.eth.getBalance(backpat.address);
+    assert.equal(balance, ether(0));
+  })
+
 });

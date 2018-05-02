@@ -4,10 +4,10 @@ import "zeppelin-solidity/contracts/payment/SplitPayment.sol";
 import "zeppelin-solidity/contracts/math/SafeMath.sol";
 
 
-contract Backpat is SplitPayment {
+contract Ourtips is SplitPayment {
     string public name;
 
-    function Backpat(address[] _payees, uint256[] _shares, string _name)
+    function Ourtips(address[] _payees, uint256[] _shares, string _name)
         public
         SplitPayment(_payees, _shares)
     {

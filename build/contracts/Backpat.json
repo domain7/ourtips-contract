@@ -1,5 +1,5 @@
 {
-  "contractName": "Backpat",
+  "contractName": "Ourtips",
   "abi": [
     {
       "constant": true,
@@ -190,12 +190,12 @@
   "deployedBytecode": "0x6080604052600436106100a4576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff16806306fdde03146100a65780631b0d3f4014610136578063366653a9146101655780633a98ef39146101c05780634e71d92d146101eb57806363037b0c146102025780639852595c1461026f578063ce21f4b1146102c6578063ce7c2ac21461031d578063e33b7de314610374575b005b3480156100b257600080fd5b506100bb61039f565b6040518080602001828103825283818151815260200191508051906020019080838360005b838110156100fb5780820151818401526020810190506100e0565b50505050905090810190601f1680156101285780820380516001836020036101000a031916815260200191505b509250505060405180910390f35b34801561014257600080fd5b5061014b61043d565b604051808215151515815260200191505060405180910390f35b34801561017157600080fd5b506101a6600480360381019080803573ffffffffffffffffffffffffffffffffffffffff1690602001909291905050506104f0565b604051808215151515815260200191505060405180910390f35b3480156101cc57600080fd5b506101d561053b565b6040518082815260200191505060405180910390f35b3480156101f757600080fd5b50610200610541565b005b34801561020e57600080fd5b5061022d600480360381019080803590602001909291905050506107b0565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b34801561027b57600080fd5b506102b0600480360381019080803573ffffffffffffffffffffffffffffffffffffffff1690602001909291905050506107ee565b6040518082815260200191505060405180910390f35b3480156102d257600080fd5b50610307600480360381019080803573ffffffffffffffffffffffffffffffffffffffff169060200190929190505050610806565b6040518082815260200191505060405180910390f35b34801561032957600080fd5b5061035e600480360381019080803573ffffffffffffffffffffffffffffffffffffffff1690602001909291905050506108fc565b6040518082815260200191505060405180910390f35b34801561038057600080fd5b50610389610914565b6040518082815260200191505060405180910390f35b60058054600181600116156101000203166002900480601f0160208091040260200160405190810160405280929190818152602001828054600181600116156101000203166002900480156104355780601f1061040a57610100808354040283529160200191610435565b820191906000526020600020905b81548152906001019060200180831161041857829003601f168201915b505050505081565b600080600090505b6004805490508110156104ec57600061049660048381548110151561046657fe5b9060005260206000200160009054906101000a900473ffffffffffffffffffffffffffffffffffffffff16610806565b11156104df576104de6004828154811015156104ae57fe5b9060005260206000200160009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1661091a565b5b8080600101915050610445565b5090565b600080600260008473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002054119050919050565b60005481565b60008060003392506000600260008573ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020016000205411151561059757600080fd5b6105c36001543073ffffffffffffffffffffffffffffffffffffffff1631610b8490919063ffffffff16565b915061067c600360008573ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020016000205461066e600054610660600260008973ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020016000205487610ba090919063ffffffff16565b610bd890919063ffffffff16565b610bee90919063ffffffff16565b90506000811415151561068e57600080fd5b803073ffffffffffffffffffffffffffffffffffffffff1631101515156106b457600080fd5b61070681600360008673ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002054610b8490919063ffffffff16565b600360008573ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020016000208190555061075e81600154610b8490919063ffffffff16565b6001819055508273ffffffffffffffffffffffffffffffffffffffff166108fc829081150290604051600060405180830381858888f193505050501580156107aa573d6000803e3d6000fd5b50505050565b6004818154811015156107bf57fe5b906000526020600020016000915054906101000a900473ffffffffffffffffffffffffffffffffffffffff1681565b60036020528060005260406000206000915090505481565b60008060006108376001543073ffffffffffffffffffffffffffffffffffffffff1631610b8490919063ffffffff16565b91506108f0600360008673ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020546108e26000546108d4600260008a73ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020016000205487610ba090919063ffffffff16565b610bd890919063ffffffff16565b610bee90919063ffffffff16565b90508092505050919050565b60026020528060005260406000206000915090505481565b60015481565b6000806000600260008573ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020016000205411151561096b57600080fd5b6109976001543073ffffffffffffffffffffffffffffffffffffffff1631610b8490919063ffffffff16565b9150610a50600360008573ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002054610a42600054610a34600260008973ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020016000205487610ba090919063ffffffff16565b610bd890919063ffffffff16565b610bee90919063ffffffff16565b905060008114151515610a6257600080fd5b803073ffffffffffffffffffffffffffffffffffffffff163110151515610a8857600080fd5b610ada81600360008673ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002054610b8490919063ffffffff16565b600360008573ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002081905550610b3281600154610b8490919063ffffffff16565b6001819055508273ffffffffffffffffffffffffffffffffffffffff166108fc829081150290604051600060405180830381858888f19350505050158015610b7e573d6000803e3d6000fd5b50505050565b60008183019050828110151515610b9757fe5b80905092915050565b600080831415610bb35760009050610bd2565b8183029050818382811515610bc457fe5b04141515610bce57fe5b8090505b92915050565b60008183811515610be557fe5b04905092915050565b6000828211151515610bfc57fe5b8183039050929150505600a165627a7a723058206c7b2ed07a11f7c3ad08a8f92c7cfc6d47a32d1bfa5b104e8c8b18239d8f13ed0029",
   "sourceMap": "147:1363:0:-;;;306:1:2;277:30;;342:1;311:32;;211:156:0;8:9:-1;5:2;;;30:1;27;20:12;5:2;211:156:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;316:7;325;636:9:2;609:7;:14;591:7;:14;:32;583:41;;;;;;;;648:1;636:13;;631:92;655:7;:14;651:1;:18;631:92;;;684:32;693:7;701:1;693:10;;;;;;;;;;;;;;;;;;705:7;713:1;705:10;;;;;;;;;;;;;;;;;;684:8;;;:32;;;:::i;:::-;671:3;;;;;;;631:92;;;502:225;;;355:5:0;348:4;:12;;;;;;;;;;;;:::i;:::-;;211:156;;;147:1363;;1495:260:2;1587:1;1569:20;;:6;:20;;;;1561:29;;;;;;;;1614:1;1604:7;:11;1596:20;;;;;;;;1648:1;1630:6;:14;1637:6;1630:14;;;;;;;;;;;;;;;;:19;1622:28;;;;;;;;1657:6;1669;1657:19;;39:1:-1;33:3;27:10;23:18;57:10;52:3;45:23;79:10;72:17;;0:93;1657:19:2;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;1699:7;1682:6;:14;1689:6;1682:14;;;;;;;;;;;;;;;:24;;;;1726;1742:7;1726:11;;:15;;;;;;:24;;;;;:::i;:::-;1712:11;:38;;;;1495:260;;:::o;1008:123:1:-;1066:9;1091:1;1087;:5;1083:9;;1110:1;1105;:6;;1098:14;;;;;;1125:1;1118:8;;1008:123;;;;:::o;147:1363:0:-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;;:::o;:::-;;;;;;;;;;;;;;;;;;;;;;;;;;;:::o;:::-;;;;;;;",
   "deployedSourceMap": "147:1363:0:-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;186:18;;8:9:-1;5:2;;;30:1;27;20:12;5:2;186:18:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;23:1:-1;8:100;33:3;30:1;27:10;8:100;;;99:1;94:3;90:11;84:18;80:1;75:3;71:11;64:39;52:2;49:1;45:10;40:15;;8:100;;;12:14;186:18:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;806:206;;8:9:-1;5:2;;;30:1;27;20:12;5:2;806:206:0;;;;;;;;;;;;;;;;;;;;;;;;;;;694:106;;8:9:-1;5:2;;;30:1;27;20:12;5:2;694:106:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;277:30:2;;8:9:-1;5:2;;;30:1;27;20:12;5:2;277:30:2;;;;;;;;;;;;;;;;;;;;;;;858:465;;8:9:-1;5:2;;;30:1;27;20:12;5:2;858:465:2;;;;;;440:23;;8:9:-1;5:2;;;30:1;27;20:12;5:2;440:23:2;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;393:43;;8:9:-1;5:2;;;30:1;27;20:12;5:2;393:43:2;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;408:280:0;;8:9:-1;5:2;;;30:1;27;20:12;5:2;408:280:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;348:41:2;;8:9:-1;5:2;;;30:1;27;20:12;5:2;348:41:2;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;311:32;;8:9:-1;5:2;;;30:1;27;20:12;5:2;311:32:2;;;;;;;;;;;;;;;;;;;;;;;186:18:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::o;806:206::-;841:4;862:6;871:1;862:10;;857:149;878:6;:13;;;;874:1;:17;857:149;;;941:1;916:22;928:6;935:1;928:9;;;;;;;;;;;;;;;;;;;;;;;;;;;916:11;:22::i;:::-;:26;912:84;;;962:19;971:6;978:1;971:9;;;;;;;;;;;;;;;;;;;;;;;;;;;962:8;:19::i;:::-;912:84;893:3;;;;;;;857:149;;;806:206;;:::o;694:106::-;750:4;792:1;773:6;:16;780:8;773:16;;;;;;;;;;;;;;;;:20;766:27;;694:106;;;:::o;277:30:2:-;;;;:::o;858:465::-;888:13;954:21;1024:15;904:10;888:26;;945:1;929:6;:13;936:5;929:13;;;;;;;;;;;;;;;;:17;921:26;;;;;;;;978:40;1004:13;;986:4;978:21;;;:25;;:40;;;;:::i;:::-;954:64;;1042:70;1096:8;:15;1105:5;1096:15;;;;;;;;;;;;;;;;1042:49;1079:11;;1042:32;1060:6;:13;1067:5;1060:13;;;;;;;;;;;;;;;;1042;:17;;:32;;;;:::i;:::-;:36;;:49;;;;:::i;:::-;:53;;:70;;;;:::i;:::-;1024:88;;1138:1;1127:7;:12;;1119:21;;;;;;;;1179:7;1162:4;1154:21;;;:32;;1146:41;;;;;;;;1212:28;1232:7;1212:8;:15;1221:5;1212:15;;;;;;;;;;;;;;;;:19;;:28;;;;:::i;:::-;1194:8;:15;1203:5;1194:15;;;;;;;;;;;;;;;:46;;;;1262:26;1280:7;1262:13;;:17;;:26;;;;:::i;:::-;1246:13;:42;;;;1295:5;:14;;:23;1310:7;1295:23;;;;;;;;;;;;;;;;;;;;;;;;8:9:-1;5:2;;;45:16;42:1;39;24:38;77:16;74:1;67:27;5:2;1295:23:2;858:465;;;:::o;440:23::-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::o;393:43::-;;;;;;;;;;;;;;;;;:::o;408:280:0:-;466:7;485:21;559:19;509:40;535:13;;517:4;509:21;;;:25;;:40;;;;:::i;:::-;485:64;;581:72;636:8;:16;645:6;636:16;;;;;;;;;;;;;;;;581:50;619:11;;581:33;599:6;:14;606:6;599:14;;;;;;;;;;;;;;;;581:13;:17;;:33;;;;:::i;:::-;:37;;:50;;;;:::i;:::-;:54;;:72;;;;:::i;:::-;559:94;;670:11;663:18;;408:280;;;;;:::o;348:41:2:-;;;;;;;;;;;;;;;;;:::o;311:32::-;;;;:::o;1018:490:0:-;1108:21;1182:15;1096:1;1079:6;:14;1086:6;1079:14;;;;;;;;;;;;;;;;:18;1071:27;;;;;;;;1132:40;1158:13;;1140:4;1132:21;;;:25;;:40;;;;:::i;:::-;1108:64;;1200:72;1255:8;:16;1264:6;1255:16;;;;;;;;;;;;;;;;1200:50;1238:11;;1200:33;1218:6;:14;1225:6;1218:14;;;;;;;;;;;;;;;;1200:13;:17;;:33;;;;:::i;:::-;:37;;:50;;;;:::i;:::-;:54;;:72;;;;:::i;:::-;1182:90;;1302:1;1291:7;:12;;1283:21;;;;;;;;1347:7;1330:4;1322:21;;;:32;;1314:41;;;;;;;;1385:29;1406:7;1385:8;:16;1394:6;1385:16;;;;;;;;;;;;;;;;:20;;:29;;;;:::i;:::-;1366:8;:16;1375:6;1366:16;;;;;;;;;;;;;;;:48;;;;1440:26;1458:7;1440:13;;:17;;:26;;;;:::i;:::-;1424:13;:42;;;;1477:6;:15;;:24;1493:7;1477:24;;;;;;;;;;;;;;;;;;;;;;;;8:9:-1;5:2;;;45:16;42:1;39;24:38;77:16;74:1;67:27;5:2;1477:24:0;1018:490;;;:::o;1008:123:1:-;1066:9;1091:1;1087;:5;1083:9;;1110:1;1105;:6;;1098:14;;;;;;1125:1;1118:8;;1008:123;;;;:::o;203:167::-;261:9;287:1;282;:6;278:35;;;305:1;298:8;;;;278:35;326:1;322;:5;318:9;;349:1;344;340;:5;;;;;;;;:10;333:18;;;;;;364:1;357:8;;203:167;;;;;:::o;452:272::-;510:7;718:1;714;:5;;;;;;;;707:12;;452:272;;;;:::o;836:110::-;894:7;921:1;916;:6;;909:14;;;;;;940:1;936;:5;929:12;;836:110;;;;:::o",
-  "source": "pragma solidity ^0.4.20;\n\nimport \"zeppelin-solidity/contracts/payment/SplitPayment.sol\";\nimport \"zeppelin-solidity/contracts/math/SafeMath.sol\";\n\n\ncontract Backpat is SplitPayment {\n    string public name;\n\n    function Backpat(address[] _payees, uint256[] _shares, string _name)\n        public\n        SplitPayment(_payees, _shares)\n    {\n        name = _name;\n    }\n\n    function () public payable {}\n\n    function checkAmount(address _payee) public view returns (uint256) {\n        uint256 totalReceived = address(this).balance.add(totalReleased);\n        uint256 payeeAmount = totalReceived.mul(shares[_payee]).div(totalShares).sub(released[_payee]);\n        return payeeAmount;\n    }\n\n    function isPayee(address _address) public view returns (bool) {\n        return shares[_address] > 0;\n    }\n\n    function sendOut() public returns (bool) {\n        for (uint i = 0; i < payees.length; i++) {\n            if (checkAmount(payees[i]) > 0) {\n                transfer(payees[i]);\n            }\n        }\n    }\n\n    function transfer(address _payee) internal {\n        require(shares[_payee] > 0);\n        uint256 totalReceived = address(this).balance.add(totalReleased);\n        uint256 payment = totalReceived.mul(shares[_payee]).div(totalShares).sub(released[_payee]);\n\n        require(payment != 0);\n        require(address(this).balance >= payment);\n\n        released[_payee] = released[_payee].add(payment);\n        totalReleased = totalReleased.add(payment);\n\n        _payee.transfer(payment);\n    }\n}\n",
-  "sourcePath": "/Users/igor/Work/Backpat/backpat-truffle/contracts/Backpat.sol",
+  "source": "pragma solidity ^0.4.20;\n\nimport \"zeppelin-solidity/contracts/payment/SplitPayment.sol\";\nimport \"zeppelin-solidity/contracts/math/SafeMath.sol\";\n\n\ncontract Ourtips is SplitPayment {\n    string public name;\n\n    function Ourtips(address[] _payees, uint256[] _shares, string _name)\n        public\n        SplitPayment(_payees, _shares)\n    {\n        name = _name;\n    }\n\n    function () public payable {}\n\n    function checkAmount(address _payee) public view returns (uint256) {\n        uint256 totalReceived = address(this).balance.add(totalReleased);\n        uint256 payeeAmount = totalReceived.mul(shares[_payee]).div(totalShares).sub(released[_payee]);\n        return payeeAmount;\n    }\n\n    function isPayee(address _address) public view returns (bool) {\n        return shares[_address] > 0;\n    }\n\n    function sendOut() public returns (bool) {\n        for (uint i = 0; i < payees.length; i++) {\n            if (checkAmount(payees[i]) > 0) {\n                transfer(payees[i]);\n            }\n        }\n    }\n\n    function transfer(address _payee) internal {\n        require(shares[_payee] > 0);\n        uint256 totalReceived = address(this).balance.add(totalReleased);\n        uint256 payment = totalReceived.mul(shares[_payee]).div(totalShares).sub(released[_payee]);\n\n        require(payment != 0);\n        require(address(this).balance >= payment);\n\n        released[_payee] = released[_payee].add(payment);\n        totalReleased = totalReleased.add(payment);\n\n        _payee.transfer(payment);\n    }\n}\n",
+  "sourcePath": "/Users/igor/Work/Ourtips/ourtips-truffle/contracts/Ourtips.sol",
   "ast": {
-    "absolutePath": "/Users/igor/Work/Backpat/backpat-truffle/contracts/Backpat.sol",
+    "absolutePath": "/Users/igor/Work/Ourtips/ourtips-truffle/contracts/Ourtips.sol",
     "exportedSymbols": {
-      "Backpat": [
+      "Ourtips": [
         197
       ]
     },
@@ -267,7 +267,7 @@
           197,
           491
         ],
-        "name": "Backpat",
+        "name": "Ourtips",
         "nodeType": "ContractDefinition",
         "nodes": [
           {
@@ -403,7 +403,7 @@
                 "src": "303:30:0"
               }
             ],
-            "name": "Backpat",
+            "name": "Ourtips",
             "nodeType": "FunctionDefinition",
             "parameters": {
               "id": 16,
@@ -634,16 +634,16 @@
                               "referencedDeclaration": 523,
                               "src": "517:4:0",
                               "typeDescriptions": {
-                                "typeIdentifier": "t_contract$_Backpat_$197",
-                                "typeString": "contract Backpat"
+                                "typeIdentifier": "t_contract$_Ourtips_$197",
+                                "typeString": "contract Ourtips"
                               }
                             }
                           ],
                           "expression": {
                             "argumentTypes": [
                               {
-                                "typeIdentifier": "t_contract$_Backpat_$197",
-                                "typeString": "contract Backpat"
+                                "typeIdentifier": "t_contract$_Ourtips_$197",
+                                "typeString": "contract Ourtips"
                               }
                             ],
                             "id": 40,
@@ -1879,16 +1879,16 @@
                               "referencedDeclaration": 523,
                               "src": "1140:4:0",
                               "typeDescriptions": {
-                                "typeIdentifier": "t_contract$_Backpat_$197",
-                                "typeString": "contract Backpat"
+                                "typeIdentifier": "t_contract$_Ourtips_$197",
+                                "typeString": "contract Ourtips"
                               }
                             }
                           ],
                           "expression": {
                             "argumentTypes": [
                               {
-                                "typeIdentifier": "t_contract$_Backpat_$197",
-                                "typeString": "contract Backpat"
+                                "typeIdentifier": "t_contract$_Ourtips_$197",
+                                "typeString": "contract Ourtips"
                               }
                             ],
                             "id": 131,
@@ -2345,16 +2345,16 @@
                                 "referencedDeclaration": 523,
                                 "src": "1330:4:0",
                                 "typeDescriptions": {
-                                  "typeIdentifier": "t_contract$_Backpat_$197",
-                                  "typeString": "contract Backpat"
+                                  "typeIdentifier": "t_contract$_Ourtips_$197",
+                                  "typeString": "contract Ourtips"
                                 }
                               }
                             ],
                             "expression": {
                               "argumentTypes": [
                                 {
-                                  "typeIdentifier": "t_contract$_Backpat_$197",
-                                  "typeString": "contract Backpat"
+                                  "typeIdentifier": "t_contract$_Ourtips_$197",
+                                  "typeString": "contract Ourtips"
                                 }
                               ],
                               "id": 163,
@@ -2843,9 +2843,9 @@
     "src": "0:1511:0"
   },
   "legacyAST": {
-    "absolutePath": "/Users/igor/Work/Backpat/backpat-truffle/contracts/Backpat.sol",
+    "absolutePath": "/Users/igor/Work/Ourtips/ourtips-truffle/contracts/Ourtips.sol",
     "exportedSymbols": {
-      "Backpat": [
+      "Ourtips": [
         197
       ]
     },
@@ -2917,7 +2917,7 @@
           197,
           491
         ],
-        "name": "Backpat",
+        "name": "Ourtips",
         "nodeType": "ContractDefinition",
         "nodes": [
           {
@@ -3053,7 +3053,7 @@
                 "src": "303:30:0"
               }
             ],
-            "name": "Backpat",
+            "name": "Ourtips",
             "nodeType": "FunctionDefinition",
             "parameters": {
               "id": 16,
@@ -3284,16 +3284,16 @@
                               "referencedDeclaration": 523,
                               "src": "517:4:0",
                               "typeDescriptions": {
-                                "typeIdentifier": "t_contract$_Backpat_$197",
-                                "typeString": "contract Backpat"
+                                "typeIdentifier": "t_contract$_Ourtips_$197",
+                                "typeString": "contract Ourtips"
                               }
                             }
                           ],
                           "expression": {
                             "argumentTypes": [
                               {
-                                "typeIdentifier": "t_contract$_Backpat_$197",
-                                "typeString": "contract Backpat"
+                                "typeIdentifier": "t_contract$_Ourtips_$197",
+                                "typeString": "contract Ourtips"
                               }
                             ],
                             "id": 40,
@@ -4529,16 +4529,16 @@
                               "referencedDeclaration": 523,
                               "src": "1140:4:0",
                               "typeDescriptions": {
-                                "typeIdentifier": "t_contract$_Backpat_$197",
-                                "typeString": "contract Backpat"
+                                "typeIdentifier": "t_contract$_Ourtips_$197",
+                                "typeString": "contract Ourtips"
                               }
                             }
                           ],
                           "expression": {
                             "argumentTypes": [
                               {
-                                "typeIdentifier": "t_contract$_Backpat_$197",
-                                "typeString": "contract Backpat"
+                                "typeIdentifier": "t_contract$_Ourtips_$197",
+                                "typeString": "contract Ourtips"
                               }
                             ],
                             "id": 131,
@@ -4995,16 +4995,16 @@
                                 "referencedDeclaration": 523,
                                 "src": "1330:4:0",
                                 "typeDescriptions": {
-                                  "typeIdentifier": "t_contract$_Backpat_$197",
-                                  "typeString": "contract Backpat"
+                                  "typeIdentifier": "t_contract$_Ourtips_$197",
+                                  "typeString": "contract Ourtips"
                                 }
                               }
                             ],
                             "expression": {
                               "argumentTypes": [
                                 {
-                                  "typeIdentifier": "t_contract$_Backpat_$197",
-                                  "typeString": "contract Backpat"
+                                  "typeIdentifier": "t_contract$_Ourtips_$197",
+                                  "typeString": "contract Ourtips"
                                 }
                               ],
                               "id": 163,

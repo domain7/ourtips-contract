@@ -7,8 +7,10 @@
     "test": "test"
   },
   "scripts": {
+    "develop": "truffle develop",
     "test": "truffle test",
-    "deploy": "truffle compile && cp build/contracts/Ourtips.json ../ourtips/contracts"
+    "build": "truffle compile",
+    "copy": "truffle compile && cp build/contracts/Ourtips.json ../ourtips/contracts"
   },
   "author": "",
   "license": "ISC",

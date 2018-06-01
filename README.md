@@ -28,3 +28,10 @@ Tip: use `.only` to run a single test
 To build a json with all compilation artifacts run `npm run build`
 
 To copy the artifact to the dapp project, modify `copy` script located in `package.json` to match your folder structure. Then run `npm run copy`.
+
+## Built with
+ - [Truffle framework](http://truffleframework.com/)
+
+## Authors:
+
+- Igor Barbashin
